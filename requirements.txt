@@ -1,0 +1,53 @@
+# -*- coding: utf-8 -*-
+# HAE RAG System - Requirements
+# Last Updated: 2025-12-14
+# Status: VERIFIED ✓
+
+# ============================================
+# CORE DEPENDENCIES
+# ============================================
+
+# LangChain Ecosystem
+langchain==0.3.19
+langchain-community==0.3.18
+langchain-core==0.3.79
+langchain-openai==0.3.0
+langchain-huggingface==0.1.2
+
+# OpenAI
+openai==1.59.8
+tiktoken==0.8.0
+
+# Embeddings & Vector Store
+sentence-transformers==3.3.1
+transformers==4.57.1
+huggingface_hub==0.34.0
+faiss-cpu==1.9.0
+torch==2.9.1  # CPU version (Windows compatible)
+
+# ============================================
+# WEB FRAMEWORK (Streamlit)
+# ============================================
+
+streamlit==1.41.1
+watchdog==6.0.0
+
+# ============================================
+# DATA PROCESSING
+# ============================================
+
+pandas==2.2.1
+numpy==1.26.4
+
+# Document Processing
+PyPDF2==3.0.1
+pdfplumber==0.11.0
+openpyxl==3.1.5
+
+# ============================================
+# UTILITIES
+# ============================================
+
+python-dotenv==1.0.1
+tqdm==4.67.1
+rich==13.9.4
