@@ -110,7 +110,7 @@ This system was developed as part of research in medical AI and cross-lingual in
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/hae-rag-system.git
+git clone https://github.com/okandolu/hae-rag-system.git
 cd hae-rag-system
 ```
 
@@ -129,7 +129,7 @@ venv\Scripts\activate
 ### Step 3: Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -e .
 ```
 
 ### Step 4: Configure Environment
